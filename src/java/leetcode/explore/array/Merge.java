@@ -7,7 +7,8 @@ import java.util.List;
 
 public class Merge {
     public static void main(String[] args) {
-
+        int[][] intervals={{1,3}, {2,6},{8,10},{15,18}};
+        intervals=merge(intervals);
     }
     public static int[][] merge(int[][] intervals) {
         //边界判断
