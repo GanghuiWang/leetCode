@@ -8,7 +8,7 @@ public class PrintCommonPart {
         //基本类型
         public int value;
         //想要创建本类的一个对象
-
+        //用来判断head节点是否为null
         public Node next;
 
         public Node (int data){
@@ -55,5 +55,4 @@ public class PrintCommonPart {
         System.out.println(node1.value);
 
     }
-
 }
