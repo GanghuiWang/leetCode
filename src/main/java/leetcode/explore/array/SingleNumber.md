@@ -14,7 +14,7 @@
 输入: [4,1,2,1,2]
 输出: 4
 
-作者：力扣 (LeetCode)
-链接：https://leetcode-cn.com/leetbook/read/top-interview-questions/xm0u83/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+题解：
+利用set得到不重复的元素，然后将其*2,得到sum1，同时将nums遍历求和得sum2，
+此时2*sum1恰好比sum2多出那唯一的不重复元素。
+return 2*sum1-sum2 即可得到答案。
